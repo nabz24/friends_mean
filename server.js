@@ -10,6 +10,10 @@ app.use(express.static(__dirname + '/public/dist'));
 
 var routes = require('./server/config/routes.js')(app);
 
+app.get('*', (req, res)=>{
+  res.sendFile(path.resolve('public/dist/index.html'));
+});
+
 app.listen(8000,() => {
   console.log("listening on 8000")
 });
