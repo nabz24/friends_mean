@@ -37,6 +37,5 @@ export class ShowComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(){
-    this.sub.unsubscirbe();
   }
 }

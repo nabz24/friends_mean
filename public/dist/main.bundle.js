@@ -1,6 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 139:
+/***/ 141:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -9,20 +9,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 139;
+webpackEmptyContext.id = 141;
 
 
 /***/ }),
 
-/***/ 140:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(152);
 
 
 
@@ -35,7 +35,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 146:
+/***/ 148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57,8 +57,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(209),
-        styles: [__webpack_require__(204)]
+        template: __webpack_require__(211),
+        styles: [__webpack_require__(206)]
     })
 ], AppComponent);
 
@@ -66,21 +66,21 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 147:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard_component__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__edit_edit_component__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__show_show_component__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__new_new_component__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_routes__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__friend_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard_component__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__edit_edit_component__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__show_show_component__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__new_new_component__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_routes__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__friend_service__ = __webpack_require__(30);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -128,15 +128,15 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 148:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_dashboard_component__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_edit_component__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__show_show_component__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__new_new_component__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_dashboard_component__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_edit_component__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__show_show_component__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__new_new_component__ = __webpack_require__(89);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -155,7 +155,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 149:
+/***/ 151:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ var Friend = (function () {
 
 /***/ }),
 
-/***/ 150:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -193,10 +193,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 204:
+/***/ 206:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(26)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 
 
@@ -211,10 +211,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 205:
+/***/ 207:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(26)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 
 
@@ -229,10 +229,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 206:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(26)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 
 
@@ -247,10 +247,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 207:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(26)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 
 
@@ -265,10 +265,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 208:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(26)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 
 
@@ -283,48 +283,48 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 209:
+/***/ 211:
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">\n\n<!-- Optional theme -->\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">\n\n<!-- Latest compiled and minified JavaScript -->\n<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n\n<div class  = \"container purpleBorder\">\n<h1>Full mean friends!</h1>\n<router-outlet></router-outlet>\n</div>\n"
 
 /***/ }),
 
-/***/ 210:
-/***/ (function(module, exports) {
-
-module.exports = "<div class = \"blueborder\">\n  <h3>Dashboard Component</h3>\n  <a [routerLink] = \"['/new']\"> Create a new Friend!</a>\n  <div *ngIf = 'errors'>\n    {{errors}}\n  </div>\n  <div *ngIf='friends'>\n    <table class = \"table table-stripped\">\n    <thead>\n      <th>First Name</th>\n      <th>Last Name</th>\n      <th>Birthday</th>\n      <th>Action</th>\n    </thead>\n    <tbody>\n    <tr *ngFor = 'let friend of friends'>\n      <td>{{friend.first_name}}</td>\n      <td>{{friend.last_name}}</td>\n      <td>{{friend.birthday | date: \"longDate\"}}</td>\n      <td>\n        <a [routerLink] = \"['/show', friend._id]\">Show</a>\n        <a [routerLink] = \"['/edit', friend._id]\">Edit</a>\n        <a (click) = 'delete(friend._id)'>Delete</a>\n      </td>\n\n  </table>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 211:
-/***/ (function(module, exports) {
-
-module.exports = "<div class = \"orangeBorder\">\n  <h3> Edit Component</h3>\n  <div *ngIf = 'errors'>\n    <p>{{errors}}</p>\n  </div>\n  <div *ngIf = 'editfriend'>\n  <form (submit) = 'updateFriend()'>\n    <div class = \"form-group\">\n      <label for = \"first_name\"> First name:</label>\n      <input type =\"text\" name = \"first_name\" [(ngModel)]\n      ='editfriend.first_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"last_name\"> Last name:</label>\n      <input type =\"text\" name = \"last_name\" [(ngModel)]\n      ='editfriend.last_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"birthday\"> First name:</label>\n      <input type =\"date\" name = \"birthday\"\n      [ngModel] = \"editfriend.birthday | date: 'yyyy-MM-dd'\"\n      (ngModelChange) = 'editfriend.birthday = $event'\n      class=\"form-control\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-primary\"> Create a friend!</button>\n  </form>\n  </div>\n\n</div>\n"
-
-/***/ }),
-
 /***/ 212:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \"greenBorder\">\n  <h3> New Component</h3>\n  <div *ngIf = 'errors'>\n    <p>{{errors}}</p>\n  </div>\n  <form (submit) = 'createFriend()'>\n    <div class = \"form-group\">\n      <label for = \"first_name\"> First name:</label>\n      <input type =\"text\" name = \"first_name\" [(ngModel)]\n      ='newfriend.first_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"last_name\"> Last name:</label>\n      <input type =\"text\" name = \"last_name\" [(ngModel)]\n      ='newfriend.last_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"birthday\"> First name:</label>\n      <input type =\"date\" name = \"birthday\" [(ngModel)]\n      ='newfriend.birthday' class=\"form-control\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-primary\"> Create a friend!</button>\n  </form>\n\n</div>\n"
+module.exports = "<div class = \"blueborder\">\n  <h3>Dashboard Component</h3>\n  <a [routerLink] = \"['/new']\"> Create a new Friend!</a>\n  <div *ngIf = 'errors'>\n    {{errors}}\n  </div>\n  <div *ngIf='friends'>\n    <table class = \"table table-stripped\">\n    <thead>\n      <th>First Name</th>\n      <th>Last Name</th>\n      <th>Birthday</th>\n      <th>Action</th>\n    </thead>\n    <tbody>\n    <tr *ngFor = 'let friend of friends'>\n      <td>{{friend.first_name}}</td>\n      <td>{{friend.last_name}}</td>\n      <td>{{friend.birthday | date: \"longDate\"}}</td>\n      <td>\n        <a [routerLink] = \"['/show', friend._id]\">Show</a>\n        <a [routerLink] = \"['/edit', friend._id]\">Edit</a>\n        <a (click) = 'delete(friend._id)'>Delete</a>\n      </td>\n\n  </table>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 213:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \"aqua\">\n<h3>Show Component</h3>\n<div *ngIf = 'errors'>\n    <p> {{errors}}</p>\n</div>\n<div *ngIf = \"showFriend\">\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>First name:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.first_name}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Last name:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.last_name}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Birthday:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.birthday | date: \"longDate\"}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Friend since:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.createdAt| date: \"longDate\"}}</p>\n    </div>\n  </div>\n\n\n</div>\n"
+module.exports = "<div class = \"orangeBorder\">\n  <a [routerLink] = \"['/dashboard']\">Home</a>\n\n  <h3> Edit Component</h3>\n  <div *ngIf = 'errors'>\n    <p>{{errors}}</p>\n  </div>\n  <div *ngIf = 'editfriend'>\n  <form (submit) = 'updateFriend()'>\n    <div class = \"form-group\">\n      <label for = \"first_name\"> First name:</label>\n      <input type =\"text\" name = \"first_name\" [(ngModel)]\n      ='editfriend.first_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"last_name\"> Last name:</label>\n      <input type =\"text\" name = \"last_name\" [(ngModel)]\n      ='editfriend.last_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"birthday\"> First name:</label>\n      <input type =\"date\" name = \"birthday\"\n      [ngModel] = \"editfriend.birthday | date: 'yyyy-MM-dd'\"\n      (ngModelChange) = 'editfriend.birthday = $event'\n      class=\"form-control\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-primary\"> Create a friend!</button>\n  </form>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 29:
+/***/ 214:
+/***/ (function(module, exports) {
+
+module.exports = "<div class = \"greenBorder\">\n  <h3> New Component</h3>\n  <div *ngIf = 'errors'>\n    <p>{{errors}}</p>\n  </div>\n  <form (submit) = 'createFriend()'>\n    <div class = \"form-group\">\n      <label for = \"first_name\"> First name:</label>\n      <input type =\"text\" name = \"first_name\" [(ngModel)]\n      ='newfriend.first_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"last_name\"> Last name:</label>\n      <input type =\"text\" name = \"last_name\" [(ngModel)]\n      ='newfriend.last_name' class=\"form-control\">\n    </div>\n    <div class = \"form-group\">\n      <label for = \"birthday\"> First name:</label>\n      <input type =\"date\" name = \"birthday\" [(ngModel)]\n      ='newfriend.birthday' class=\"form-control\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-primary\"> Create a friend!</button>\n  </form>\n\n</div>\n"
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, exports) {
+
+module.exports = "<div class = \"aqua\">\n<a [routerLink] = \"['/dashboard']\">Home</a>\n\n<h3>Show Component</h3>\n<div *ngIf = 'errors'>\n    <p> {{errors}}</p>\n</div>\n<div *ngIf = \"showFriend\">\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>First name:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.first_name}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Last name:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.last_name}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Birthday:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.birthday | date: \"longDate\"}}</p>\n    </div>\n  </div>\n\n  <div class = \"row\">\n    <div class = \"col-md-2\">\n      <p>Friend since:</p>\n    </div>\n    <div class = \"col-md-10\">\n      <p>{{showFriend.createdAt| date: \"longDate\"}}</p>\n    </div>\n  </div>\n\n\n</div>\n"
+
+/***/ }),
+
+/***/ 30:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FriendService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -370,20 +370,20 @@ var _a;
 
 /***/ }),
 
-/***/ 482:
+/***/ 487:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(140);
+module.exports = __webpack_require__(142);
 
 
 /***/ }),
 
-/***/ 86:
+/***/ 87:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__friend_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__friend_service__ = __webpack_require__(30);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -439,8 +439,8 @@ var DashboardComponent = (function () {
 DashboardComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-dashboard',
-        template: __webpack_require__(210),
-        styles: [__webpack_require__(205)]
+        template: __webpack_require__(212),
+        styles: [__webpack_require__(207)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__friend_service__["a" /* FriendService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__friend_service__["a" /* FriendService */]) === "function" && _a || Object])
 ], DashboardComponent);
@@ -450,13 +450,13 @@ var _a;
 
 /***/ }),
 
-/***/ 87:
+/***/ 88:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(30);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -523,8 +523,8 @@ var EditComponent = (function () {
 EditComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-edit',
-        template: __webpack_require__(211),
-        styles: [__webpack_require__(206)]
+        template: __webpack_require__(213),
+        styles: [__webpack_require__(208)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _c || Object])
 ], EditComponent);
@@ -534,14 +534,14 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 88:
+/***/ 89:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__friend__ = __webpack_require__(149);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__friend__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(45);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -588,8 +588,8 @@ var NewComponent = (function () {
 NewComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-new',
-        template: __webpack_require__(212),
-        styles: [__webpack_require__(207)]
+        template: __webpack_require__(214),
+        styles: [__webpack_require__(209)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */]) === "function" && _b || Object])
 ], NewComponent);
@@ -599,13 +599,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 89:
+/***/ 90:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friend_service__ = __webpack_require__(30);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShowComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -652,15 +652,14 @@ var ShowComponent = (function () {
         });
     };
     ShowComponent.prototype.ngOnDestroy = function () {
-        this.sub.unsubscirbe();
     };
     return ShowComponent;
 }());
 ShowComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-show',
-        template: __webpack_require__(213),
-        styles: [__webpack_require__(208)]
+        template: __webpack_require__(215),
+        styles: [__webpack_require__(210)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__friend_service__["a" /* FriendService */]) === "function" && _b || Object])
 ], ShowComponent);
@@ -670,5 +669,5 @@ var _a, _b;
 
 /***/ })
 
-},[482]);
+},[487]);
 //# sourceMappingURL=main.bundle.js.map

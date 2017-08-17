@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
 import { FriendService } from './../friend.service';
 @Component({
   selector: 'app-dashboard',
@@ -8,6 +10,7 @@ import { FriendService } from './../friend.service';
 export class DashboardComponent implements OnInit {
 
   constructor(private _friendService: FriendService) { }
+
   friends = null;
   errors = null;
   ngOnInit() {
