@@ -26,8 +26,8 @@ export class NewComponent implements OnInit {
       }
       // this.newfriend = new Friend();
       else{
-        this.errors = "COuld not create your freind, please try again"
-        
+        this.errors = "Could not create your friend, please try again. First and last name must be 3 characters"
+
       }
     })
     .catch((err)=>{
