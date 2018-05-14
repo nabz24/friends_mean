@@ -14,6 +14,6 @@ app.get('*', (req, res)=>{
   res.sendFile(path.resolve('/public2/index.html'));
 });
 
-app.listen(8000,() => {
+app.listen(process.env.PORT,() => {
   console.log("listening on 8000")
 });
